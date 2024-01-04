@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: generic-crud-generator
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: Pass1234
+  jpa:
+    hibernate:
+      ddl-auto: create
+    open-in-view: false
+
+server:
+  port: 8888
